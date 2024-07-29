@@ -1,5 +1,31 @@
 # XPreference
 
+## Implementation
+
+集成 XPreference 之前，请先将项目更新到 AndroidX 库，如项目使用库较老，请迁移至 [AndroidX](https://developer.android.google.cn/jetpack/androidx/migrate?hl=zh-cn)。
+
+![Static Badge](https://img.shields.io/badge/jitpack-0.0.1-green)
+
+1. 项目目录下<br>
+   build.gradle.kts 添加：
+
+```kts
+implementation 'com.github.pepsimaxin:xpreference:0.0.1'
+```
+
+2. 工程目录下<br>
+   settings.gradle.kts 添加：
+
+```kts
+dependencyResolutionManagement {
+    repositoriesMode.set(RepositoriesMode.FAIL_ON_PROJECT_REPOS)
+    repositories {
+        ...
+        maven { url = uri("https://jitpack.io") }
+    }
+}
+```
+
 ## License
 
 ```
