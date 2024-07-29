@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<!-- PreferenceCategory Layout -->
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:paddingStart="@dimen/gorgeous_preference_category_padding_start"
+    android:minHeight="@dimen/gorgeous_preference_category_divider_height"
+    android:baselineAligned="false"
+    android:gravity="center_vertical">
+
+    <include layout="@layout/gorgeous_image_frame"/>
+
+    <RelativeLayout
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_weight="1"
+        android:paddingTop="24dip"
+        android:paddingBottom="8dip">
+
+        <TextView
+            android:id="@android:id/title"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_gravity="start"
+            android:textAlignment="viewStart"
+            style="@style/Gorgeous.PreferenceCategoryTitleTextStyle"/>
+
+        <TextView
+            android:id="@android:id/summary"
+            android:ellipsize="end"
+            android:singleLine="true"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@android:id/title"
+            android:layout_alignStart="@android:id/title"
+            android:layout_gravity="start"
+            android:textAlignment="viewStart"
+            android:textColor="?android:attr/textColorSecondary"
+            style="@style/Gorgeous.PreferenceSummaryTextStyle"/>
+    </RelativeLayout>
+</LinearLayout>

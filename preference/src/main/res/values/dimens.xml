@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <dimen name="gorgeous_preference_title_padding_vertical_single_line">8dp</dimen>     <!-- 内容区域上下间距 -->
+    <dimen name="gorgeous_preference_title_padding_vertical_dual_line">8dp</dimen>
+    <dimen name="gorgeous_preference_summary_padding_title">4dp</dimen>
+
+    <dimen name="preference_padding_left">16dp</dimen>
+    <dimen name="preference_padding_top_single">12dp</dimen>
+    <dimen name="preference_padding_top_first">12dp</dimen>
+    <dimen name="preference_padding_top_last">4dp</dimen>
+    <dimen name="preference_padding_top_middle">4dp</dimen>
+    <dimen name="preference_padding_bottom_single">12dp</dimen>
+    <dimen name="preference_padding_bottom_first">4dp</dimen>
+    <dimen name="preference_padding_bottom_last">12dp</dimen>
+    <dimen name="preference_padding_bottom_middle">4dp</dimen>
+    <dimen name="preference_padding_right">16dp</dimen>
+
+    <dimen name="gorgeous_preference_elevation">12dp</dimen>    <!-- Preference Layout 阴影高度 -->
+    <dimen name="preference_margin_start">12dp</dimen>       <!-- Preference 左边距 -->
+    <dimen name="preference_margin_end">12dp</dimen>         <!-- Preference 右边距 -->
+
+    <dimen name="gorgeous_preference_bg_radius">16dp</dimen>
+
+    <dimen name="gorgeous_preference_category_padding_start">28dp</dimen>
+    <dimen name="gorgeous_preference_category_divider_height">12dp</dimen>    <!-- PreferenceCategory null content height -->
+
+    <dimen name="gorgeous_preference_icon_size_small">24dp</dimen>            <!-- Preference Icon 小图标 -->
+    <dimen name="gorgeous_preference_icon_size_medium">32dp</dimen>           <!-- Preference Icon 中图标 -->
+    <dimen name="gorgeous_preference_icon_size_large">48dp</dimen>            <!-- Preference Icon 大图标 -->
+</resources>

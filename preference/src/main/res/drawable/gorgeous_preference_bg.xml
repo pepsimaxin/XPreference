@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<selector xmlns:android="http://schemas.android.com/apk/res/android">
+    <item android:drawable="@drawable/gorgeous_preference_bg_first" android:state_first="true" />
+    <item android:drawable="@drawable/gorgeous_preference_bg_middle" android:state_middle="true" />
+    <item android:drawable="@drawable/gorgeous_preference_bg_last" android:state_last="true" />
+    <item android:drawable="@drawable/gorgeous_preference_bg_single" android:state_single="true" />
+</selector>

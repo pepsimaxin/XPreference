@@ -1,0 +1,16 @@
+<resources>
+    <string name="app_name">XPreference</string>
+    <string name="home_airplane">Airplane Mode</string>
+    <string name="home_network">SIM Cards &amp; Mobile Networks</string>
+    <string name="home_wlan">WLAN</string>
+    <string name="home_bluetooth">Bluetooth</string>
+    <string name="home_connected">Connected &amp; Shared</string>
+    <string name="home_notifications">Notification &amp; Status bar</string>
+    <string name="home_display">Display</string>
+    <string name="home_sounds">Sound &amp; Vibrate</string>
+    <string name="home_battery">Battery</string>
+    <string name="home_applications">Applications</string>
+    <string name="home_system">System Settings</string>
+    <string name="home_security">Password &amp; Security</string>
+    <string name="home_storage">Storage</string>
+</resources>

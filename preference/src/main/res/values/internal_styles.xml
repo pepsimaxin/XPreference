@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <style name="Gorgeous.PreferenceFragment" parent="">
+        <item name="android:paddingStart">0dp</item>
+        <item name="android:paddingEnd">0dp</item>
+        <item name="android:divider">@null</item>
+        <item name="android:dividerHeight">@dimen/gorgeous_preference_category_divider_height</item>
+        <item name="allowDividerAfterLastItem">true</item>
+    </style>
+
+    <!--
+        ************************************************************************
+        *                                                                      *
+        *                        Preference title style                        *
+        *                                                                      *
+        ************************************************************************
+    -->
+    <style name="Gorgeous.PreferencePrimaryTextStyle" parent="">
+        <item name="android:textAppearance">?android:attr/textAppearanceListItem</item>
+        <item name="android:textColor">?attr/preferencePrimaryTextColor</item>
+        <item name="android:fontFamily">sans-serif-medium</item>
+    </style>
+
+    <!-- D:Preference Summary style -->
+    <style name="Gorgeous.PreferenceSummaryTextStyle" parent="">
+        <item name="android:textAppearance">?android:attr/textAppearanceListItemSecondary</item>
+        <item name="android:textColor">?attr/preferenceSecondaryTextColor</item>
+    </style>
+
+    <!-- @@@, PreferenceCategory title style -->
+    <style name="Gorgeous.PreferenceCategoryTitleTextStyle" parent="">
+        <item name="android:textAppearance">?attr/preferenceCategoryTitleTextAppearance</item>
+        <item name="android:textColor">?attr/preferenceCategoryTitleTextColor</item>
+    </style>
+</resources>

@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <style name="Gorgeous"/>
+
+    <style name="Base.Gorgeous.Preference" parent="">
+        <item name="singleLineTitle">false</item>
+        <item name="iconSpaceReserved">false</item>
+    </style>
+
+    <style name="Gorgeous.Preference.SingleLine" parent="Base.Gorgeous.Preference">
+        <item name="android:layout">@layout/gorgeous_preference_single_line</item>
+    </style>
+
+    <style name="Gorgeous.Preference" parent="Gorgeous.Preference.DualLine"/>
+
+    <style name="Gorgeous.Preference.DualLine" parent="Base.Gorgeous.Preference">
+        <item name="android:layout">@layout/gorgeous_preference_dual_line</item>
+    </style>
+
+    <!-- SwitchPreference -->
+    <style name="Gorgeous.Preference.SwitchPreference" parent="Gorgeous.Preference.DualLine">
+        <item name="android:widgetLayout">@layout/gorgeous_preference_widget_switch</item>
+        <item name="android:switchTextOn">@null</item>
+        <item name="android:switchTextOff">@null</item>
+    </style>
+
+    <!-- SwitchPreferenceCompat -->
+    <style name="Gorgeous.Preference.SwitchPreferenceCompat" parent="Gorgeous.Preference.DualLine">
+        <item name="android:widgetLayout">@layout/gorgeous_preference_widget_switch_compat</item>
+        <item name="android:switchTextOn">""</item>
+        <item name="android:switchTextOff">""</item>
+    </style>
+
+    <!-- DialogPreference -->
+    <style name="Gorgeous.Preference.DialogPreference">
+        <item name="android:positiveButtonText">@android:string/ok</item>
+        <item name="android:negativeButtonText">@android:string/cancel</item>
+    </style>
+
+    <style name="Gorgeous.Preference.Category">
+        <item name="android:layout">@layout/gorgeous_preference_category</item>
+        <!-- The title should not dim if the category is disabled, instead only the preference children should dim. -->
+        <item name="android:shouldDisableView">false</item>
+        <item name="android:selectable">false</item>
+<!--        <item name="emptyLayoutHeight">@dimen/gorgeous_preference_category_divider_height</item>-->
+    </style>
+
+    <style name="Gorgeous.PreferenceLayout">
+        <item name="android:clipToPadding">false</item>
+        <item name="android:baselineAligned">false</item>
+        <item name="android:background">@drawable/gorgeous_preference_bg</item>
+        <item name="android:elevation">@dimen/gorgeous_preference_elevation</item>
+        <item name="android:layout_marginStart">@dimen/preference_margin_start</item>
+        <item name="android:layout_marginEnd">@dimen/preference_margin_end</item>
+        <item name="android:paddingStart">?android:attr/listPreferredItemPaddingStart</item>        <!-- 默认值：16dp -->
+        <item name="android:paddingEnd">?android:attr/listPreferredItemPaddingEnd</item>            <!-- 默认值：16dp -->
+    </style>
+
+    <!-- Gorgeous Switch Style, support android Switch and androidx SwitchCompat -->
+    <style name="Gorgeous.Preference.Widget.Switch" parent="">
+        <item name="android:background">@null</item>
+        <item name="android:switchMinWidth">48dp</item>
+        <item name="switchMinWidth">48dp</item>
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:track">@drawable/gorgeous_preference_widget_switch_track</item>
+        <item name="track">@drawable/gorgeous_preference_widget_switch_track</item>
+        <item name="android:thumb">@drawable/gorgeous_preference_widget_switch_thumb</item>
+        <item name="android:showText">false</item>
+        <item name="showText">false</item>
+    </style>
+</resources>

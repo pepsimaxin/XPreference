@@ -1,0 +1,69 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <Preference
+        app:icon="@drawable/ic_homepage_device"
+        app:title="我的设备"
+        app:summary="GorgeousOS 1.0"/>
+
+    <PreferenceCategory>
+        <SwitchPreferenceCompat
+            app:icon="@drawable/ic_homepage_airplane"
+            app:title="@string/home_airplane"/>
+
+        <Preference
+            app:icon="@drawable/ic_homepage_network"
+            app:title="@string/home_network"/>
+
+        <Preference
+            app:icon="@drawable/ic_homepage_wlan"
+            app:title="@string/home_wlan"/>
+
+        <Preference
+            app:icon="@drawable/ic_homepage_bluetooth"
+            app:title="@string/home_bluetooth"/>
+
+        <Preference
+            app:icon="@drawable/ic_homepage_connected"
+            app:title="@string/home_connected"/>
+    </PreferenceCategory>
+
+    <PreferenceCategory>
+        <Preference
+            app:icon="@drawable/ic_homepage_notification"
+            app:title="@string/home_notifications" />
+
+        <Preference
+            app:fragment="com.gorgeous.preference.display.DisplayFragment"
+            app:icon="@drawable/ic_homepage_display"
+            app:title="@string/home_display" />
+
+        <Preference
+            app:icon="@drawable/ic_homepage_sound"
+            app:title="@string/home_sounds" />
+    </PreferenceCategory>
+
+    <PreferenceCategory>
+        <Preference
+            app:icon="@drawable/ic_homepage_battery"
+            app:title="@string/home_battery" />
+
+        <Preference
+            app:icon="@drawable/ic_homepage_application"
+            app:title="@string/home_applications" />
+
+        <Preference
+            app:icon="@drawable/ic_homepage_system"
+            app:title="@string/home_system" />
+
+        <Preference
+            app:icon="@drawable/ic_homepage_security"
+            app:title="@string/home_security" />
+
+        <Preference
+            app:icon="@drawable/ic_homepage_storage"
+            app:title="@string/home_storage" />
+    </PreferenceCategory>
+
+</PreferenceScreen>

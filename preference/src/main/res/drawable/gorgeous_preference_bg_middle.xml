@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<selector xmlns:android="http://schemas.android.com/apk/res/android"
+    android:enterFadeDuration="@integer/gorgeous_preference_state_list_duration"
+    android:exitFadeDuration="@integer/gorgeous_preference_state_list_duration">
+    <item android:drawable="@drawable/gorgeous_preference_bg_middle_pressed" android:state_pressed="true" />
+    <item android:drawable="@drawable/gorgeous_preference_bg_middle_normal" />
+</selector>

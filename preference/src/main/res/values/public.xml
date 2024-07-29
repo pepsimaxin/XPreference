@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <public type="style" name="Gorgeous.PreferenceThemeOverlay.DayNight"/>
+
+    <public type="attr" name="preferenceTheme"/>
+</resources>

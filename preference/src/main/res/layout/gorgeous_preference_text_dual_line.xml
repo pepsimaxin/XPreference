@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="0dp"
+    android:layout_height="wrap_content"
+    android:layout_weight="1"
+    android:gravity="center_vertical"
+    android:orientation="vertical"
+    android:paddingVertical="@dimen/gorgeous_preference_title_padding_vertical_dual_line">
+
+    <TextView
+        android:id="@android:id/title"
+        style="@style/Gorgeous.PreferencePrimaryTextStyle"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:scrollbars="none" />
+
+    <TextView
+        android:id="@android:id/summary"
+        style="@style/Gorgeous.PreferenceSummaryTextStyle"
+        android:layout_marginTop="@dimen/gorgeous_preference_summary_padding_title"
+        android:layout_marginEnd="12dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textDirection="locale"
+        android:hyphenationFrequency="normalFast"
+        android:maxLines="10"
+        android:scrollbars="none"
+        android:textAlignment="viewStart" />
+</LinearLayout>

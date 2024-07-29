@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<!--
+    Description: CoolDesign 3.0
+    Author     : Marco
+    Update     : 2023.09.09
+-->
+<resources>
+    <!--
+        *******************************************************************
+        *                                                                 *
+        *                           Light Theme                           *
+        *                                                                 *
+        *******************************************************************
+    -->
+    <color name="gorgeous_preference_category_title_color_light">#8A8A8A</color>
+    <color name="gorgeous_preference_title_color_light">#000000</color>
+    <color name="gorgeous_preference_summary_color_light">#8A8A8A</color>
+    <color name="gorgeous_preference_arrow_color_light">#8A8A8A</color>
+    <color name="gorgeous_preference_title_disable_color_light">#B0B0B0</color>
+    <color name="gorgeous_preference_summary_disable_color_light">#B0B0B0</color>
+    <color name="gorgeous_preference_arrow_disable_color_light">#B0B0B0</color>
+    <color name="gorgeous_preference_background_color_light">#FFFFFF</color>
+    <color name="gorgeous_preference_background_pressed_tint_light">#1A000000</color>
+    <color name="gorgeous_settings_background_light">#F2F2FA</color>
+
+    <!--
+        *******************************************************************
+        *                                                                 *
+        *                           Dark Theme                            *
+        *                                                                 *
+        *******************************************************************
+    -->
+    <!-- TODO: need adaptation for dark theme mode -->
+    <color name="gorgeous_preference_category_title_color_dark">#E0E0E0</color>
+    <color name="gorgeous_preference_title_color_dark">#FFFFFF</color>
+    <color name="gorgeous_preference_title_disable_color_dark">#B0B0B0</color>
+    <color name="gorgeous_preference_summary_color_dark">#D6D6D6</color>
+    <color name="gorgeous_preference_background_color_dark">#393939</color>
+    <color name="gorgeous_preference_background_pressed_tint_dark">#33FFFFFF</color>
+    <color name="gorgeous_settings_background_dark">#0B0B0B</color>
+
+    <!--
+        *******************************************************************
+        *                                                                 *
+        *                     PreferenceLinearLayout                      *
+        *                                                                 *
+        *******************************************************************
+    -->
+    <!-- 聚光阴影颜色 -->
+    <color name="gorgeous_preference_outline_spot_shadow_color">#00000000</color>
+    <!-- 环境阴影颜色 -->
+    <color name="gorgeous_preference_outline_ambient_color">#B3000000</color>
+</resources>

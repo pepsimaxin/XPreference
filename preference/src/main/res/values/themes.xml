@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- Preference Base Theme -->
+    <style name="Base.Gorgeous.PreferenceThemeOverlay" parent="PreferenceThemeOverlay">
+        <!-- Do not show scrollbars in PreferenceScreen -->
+        <item name="android:scrollbars">vertical</item>
+        <item name="dialogPreferenceStyle">@style/Gorgeous.Preference.DialogPreference</item>
+        <item name="preferenceCategoryStyle">@style/Gorgeous.Preference.Category</item>
+        <item name="preferenceFragmentCompatStyle">@style/Gorgeous.PreferenceFragment</item>
+        <item name="preferenceStyle">@style/Gorgeous.Preference</item>
+        <item name="preferenceIconSize">@dimen/gorgeous_preference_icon_size_medium</item>
+        <item name="switchPreferenceCompatStyle">@style/Gorgeous.Preference.SwitchPreferenceCompat</item>
+        <item name="switchPreferenceStyle">@style/Gorgeous.Preference.SwitchPreference</item>
+    </style>
+
+    <style name="Gorgeous.PreferenceThemeOverlay.Light" parent="Base.Gorgeous.PreferenceThemeOverlay">
+        <item name="preferenceCategoryTitleTextColor">@color/gorgeous_preference_category_title_color_light</item>
+        <item name="preferencePrimaryTextColor">@color/gorgeous_preference_title_color_primary_light</item>
+        <item name="preferenceSecondaryTextColor">@color/gorgeous_preference_title_color_secondary_light</item>
+        <item name="preferenceBackgroundColorNormal">@color/gorgeous_preference_background_color_light</item>
+        <item name="preferenceBackgroundTintPressed">@color/gorgeous_preference_background_pressed_tint_light</item>
+    </style>
+
+    <style name="Gorgeous.PreferenceThemeOverlay.DayNight" parent="Gorgeous.PreferenceThemeOverlay.Light" />
+</resources>
