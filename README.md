@@ -1,5 +1,14 @@
 # XPreference
 
+![Static Badge](https://img.shields.io/badge/platform-android-green)
+![Static Badge](https://img.shields.io/badge/author-marco-blue)
+![Static Badge](https://img.shields.io/badge/language-java-red)
+![Static Badge](https://img.shields.io/badge/compileSdkVersion-34-yellow)
+![Static Badge](https://img.shields.io/badge/minSdkVersion-24-yellow)
+![Static Badge](https://img.shields.io/badge/license-Apache--2.0-red)
+
+![](https://s21.ax1x.com/2024/07/29/pkL1BWD.png)
+
 ## Implementation
 
 集成 XPreference 之前，请先将项目更新到 AndroidX 库，如项目使用库较老，请迁移至 [AndroidX](https://developer.android.google.cn/jetpack/androidx/migrate?hl=zh-cn)。
