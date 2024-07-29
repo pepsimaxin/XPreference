@@ -35,6 +35,39 @@ dependencyResolutionManagement {
 }
 ```
 
+## Use
+
+✅ 项目中实现 XPreference 卡片效果，只需要「 配置主题 」及「 替换包名 」即可！
+
+1. 配置主题
+
+```xml
+<!-- 你的 APP 主题. -->
+<style name="Base.Theme.XPreference" parent="Theme.AppCompat.DayNight">
+    <!-- 全局替换 preferenceTheme 主题 -->
+    <item name="preferenceTheme">@style/Gorgeous.PreferenceThemeOverlay.DayNight</item>
+</style>
+```
+
+2. 替换 PreferenceFragmentCompat
+
+当你使用 Fragment 时，所有配置的 XML 布局，最终是通过 「PreferenceFragmentCompat」 来加载的，而 XPreference SDK 内部对所有的 「Preference」 项做了卡片效果，所以在代码中需要将: 
+
+"androidx.preference.PreferenceFragmentCompat" 替换为 "gorgeous.preference.PreferenceFragmentCompat"。
+
+```java
+// import androidx.preference.PreferenceFragmentCompat;
+   import gorgeous.preference.PreferenceFragmentCompat;
+
+public class DisplayFragment extends PreferenceFragmentCompat {
+
+    @Override
+    public void onCreatePreferences(Bundle savedInstanceState, String rootKey) {
+        setPreferencesFromResource(R.xml.fragment_display, rootKey);
+    }
+}
+```
+
 ## License
 
 ```
