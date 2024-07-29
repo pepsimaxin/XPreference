@@ -10,7 +10,7 @@
    build.gradle.kts 添加：
 
 ```kts
-implementation 'com.github.pepsimaxin:xpreference:0.0.1'
+implementation 'com.github.pepsimaxin:XPreference:0.0.1'
 ```
 
 2. 工程目录下<br>
